@@ -10,5 +10,5 @@ def generate_pie_chart(labels, values):
 
 def generate_bar_chart(labels, values):
   fig, ax = plt.subplots()
-  ax.bar(labels, values)
+  ax.bar(labels, values, color = "gray", edgecolor = 'black')
   plt.show()
