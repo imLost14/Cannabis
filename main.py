@@ -13,5 +13,5 @@ if __name__ == '__main__':
     tipos, raiting = utils.get_raiting_type(data)
     charts.generate_bar_chart(tipos, raiting)
     #charts.generate_pie_chart(tipos, raiting)
-    charts.generate_lineal_chart(tipos, raiting)
+    
     
