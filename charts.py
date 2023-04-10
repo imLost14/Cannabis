@@ -17,6 +17,8 @@ def generate_bar_chart(labels, values):
   ax.set_xlabel('Tipo de cannabis', color ='green', size =20)
   ax.bar(labels, values,width = 0.8, bottom = 0.1, edgecolor = "black", color = 'gray')
   ax.set_title('Raiting de tipo de Cannabis')
+  plt.savefig('bar.png')
+  plt.close()
   
   
 
